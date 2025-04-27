@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+  
+    background-image: url(../img/hero-bg.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.app {
+    background: rgba(255, 255, 255, 0.85); /* Fundo semi-transparente */
+    width: 90%;
+    max-width: 800px;
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+    margin: auto;
+    color: #333;
+}
+
+.app h1 {
+    font-size: 2rem;
+    color: #1d74b7;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1d74b7;
+    padding-bottom: 10px;
+}
+
+.quiz h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn {
+    background: #ffffff;
+    color: #333;
+    font-weight: 500;
+    width: 100%;
+    border: 2px solid #1d74b7;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background: #2a94e6;
+    color: #333;
+    transform: scale(1.05); /* Efeito de zoom */
+}
+
+#next-btn, #prev-btn {
+    background: #1d74b7;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px; /* Botões arredondados */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+#next-btn:hover, #prev-btn:hover {
+    background: #1d74b7;
+    transform: translateY(-2px);
+}
+
+.quiz-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto 0;
+}
+
+.back-to-index {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; /* Garante que o botão fique sempre acima dos outros elementos */
+}
+
+.back-to-index button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #1d74b7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.back-to-index button:hover {
+    background: #0341ad;
+}
