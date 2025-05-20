@@ -30,7 +30,7 @@ if (isset($_SESSION["nome"])) {
     }
 
     .card {
-        background: rgba(255, 255, 255, 0.85);
+        background: rgba(0, 0, 0, 0.85);
         border-radius: 10px;
         padding: 20px;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
